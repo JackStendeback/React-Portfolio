@@ -45,6 +45,8 @@ function Portfolio() {
                 <Projects {...PORTFOLIO_PROJECTS[1]} />
                 <Projects {...PORTFOLIO_PROJECTS[2]} />
                 <Projects {...PORTFOLIO_PROJECTS[3]} />
+                <Projects {...PORTFOLIO_PROJECTS[4]} />
+                <Projects {...PORTFOLIO_PROJECTS[5]} />
                 </ul>
             </section>
           </main>

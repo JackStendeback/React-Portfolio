@@ -2,6 +2,8 @@ import project1Img from './assets/Project1.avif';
 import project2Img from './assets/Project2.avif';
 import project3Img from './assets/Project3.avif';
 import project4Img from './assets/Project4.avif';
+import project5Img from './assets/Project5.avif';
+import project6Img from './assets/Project6.avif';
 
 export const PORTFOLIO_PROJECTS = [
     {
@@ -27,5 +29,17 @@ export const PORTFOLIO_PROJECTS = [
       title: 'Project4',
       description:
         'This will be a description of my fourth project',
+    },
+    {
+        image: project5Img,
+        title: 'Project5',
+        description:
+          'This will be a description of my fourth project',
+    },
+    {
+        image: project6Img,
+        title: 'Project6',
+        description:
+          'This will be a description of my fourth project',
     },
   ];
