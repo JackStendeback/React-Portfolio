@@ -1,3 +1,4 @@
+import profilePicture from './assets/portfolio-pic.jpg'
 import { PORTFOLIO_PROJECTS } from './data.js';
 
 const portfolioDescriptions = ['Full Stack', 'React', 'Web Development', 'MERN'];
@@ -12,7 +13,7 @@ function Header() {
 
     return (
         <header>
-            <img src="src/assets/portfolio-pic.jpg" alt="Jack Stendeback in a suit." />
+            <img src={profilePicture} alt="Jack Stendeback in a suit." />
             <h1>My {keyWords} Portfolio</h1>
             <p>
                 An in depth look into my life as a Software Developer!
