@@ -30,6 +30,26 @@ function Header() {
     );
 }
 
+function Footer() {
+    return (
+        <footer>
+            <h2>Contact Me!</h2>
+            <form action="/submit_form_url" method="POST">
+                
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Message:</label>
+                <input type="text" id="message" name="message" required />
+                
+            </form>
+        </footer>
+    );
+}
+
 // Add in links to the project repo's and the deployed applications once complete.
 function Projects({image, title, description}) {
     return (
