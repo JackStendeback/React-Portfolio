@@ -32,19 +32,19 @@ function Header() {
 
 function Footer() {
     return (
-        <footer>
+        <footer className="footer">
             <h2>Contact Me!</h2>
-            <form action="/submit_form_url" method="POST">
-                
-                <label for="username">Username:</label>
+            <form action="/submit_form_url" method="POST" className="contact-form">
+                <label htmlFor="username">Username:</label>
                 <input type="text" id="username" name="username" required />
 
-                <label for="email">Email:</label>
+                <label htmlFor="email">Email:</label>
                 <input type="email" id="email" name="email" required />
 
-                <label for="message">Message:</label>
-                <input type="text" id="message" name="message" required />
-                
+                <label htmlFor="message">Message:</label>
+                <textarea id="message" name="message" required />
+
+                <button type="submit">Send</button>
             </form>
         </footer>
     );
@@ -77,6 +77,7 @@ function Portfolio() {
                 <Projects {...PORTFOLIO_PROJECTS[5]} />
                 </ul>
             </section>
+            <Footer />
           </main>
         </div>
     );
