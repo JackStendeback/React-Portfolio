@@ -46,6 +46,18 @@ header {
     color: #8964b0;
     font-family: "Roboto Condensed", sans-serif;
   }
+
+  header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+
+  header li {
+    color: #79b473;
+    font-weight: bolder;
+    font-size: 1.5rem;
+  }
   
   main {
     width: 90%;

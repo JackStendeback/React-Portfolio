@@ -13,8 +13,16 @@ function Header() {
 
     return (
         <header>
-            <img src={profilePicture} alt="Jack Stendeback in a suit." />
+            <nav>
+                <ul>
+                    <li>About Me</li>
+                    <li>Projects</li>
+                    <li>Contacts</li>
+                </ul>
+            </nav>
+            
             <h1>My {keyWords} Portfolio</h1>
+            <img src={profilePicture} alt="Jack Stendeback in a suit." />
             <p>
                 An in depth look into my life as a Software Developer!
             </p>
