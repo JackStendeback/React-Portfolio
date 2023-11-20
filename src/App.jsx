@@ -19,14 +19,31 @@ function Header() {
     );
 }
 
-
+// Add in links to the project repo's and the deployed applications once complete.
+function Projects(props) {
+    return (
+        <li>
+            <img src={props.image} alt={props.title}></img>
+            <h3>{props.title}</h3>
+            <p>{props.description}</p>
+        </li>
+    );
+}
 
 function Portfolio() {
     return (
         <div>
             <Header />
           <main>
-            <h2>Let's get started!</h2>
+            <section id="main-projects">
+                <h2>My Projects</h2>
+                <ul>
+                    <Projects/>
+                    <Projects/>
+                    <Projects/>
+                    <Projects/>
+                </ul>
+            </section>
           </main>
         </div>
     );
