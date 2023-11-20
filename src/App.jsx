@@ -12,12 +12,12 @@ function Header() {
     const keyWords = portfolioDescriptions[genRandomInt(2)]
 
     return (
-        <header>
+        <header id="header">
             <nav>
                 <ul>
-                    <li>About Me</li>
-                    <li>Projects</li>
-                    <li>Contacts</li>
+                    <li><a href="#header">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#footer">Contacts</a></li>
                 </ul>
             </nav>
             
@@ -32,7 +32,7 @@ function Header() {
 
 function Footer() {
     return (
-        <footer className="footer">
+        <footer className="footer" id="footer">
             <h2>Contact Me!</h2>
             <form action="/submit_form_url" method="POST" className="contact-form">
                 <label htmlFor="username">Username:</label>
@@ -67,7 +67,7 @@ function Portfolio() {
             <Header />
           <main>
             <section id="main-projects">
-                <h2>My Projects</h2>
+                <h2 id="projects">My Projects</h2>
                 <ul>
                 <Projects {...PORTFOLIO_PROJECTS[0]} />
                 <Projects {...PORTFOLIO_PROJECTS[1]} />
