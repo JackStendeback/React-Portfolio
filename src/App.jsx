@@ -21,7 +21,7 @@ function Header() {
                 </ul>
             </nav>
             
-            <h1>My {keyWords} Portfolio</h1>
+            <h1>Jack Stendeback's {keyWords} Portfolio</h1>
             <img src={profilePicture} alt="Jack Stendeback in a suit." />
             <p>
                 An in depth look into my life as a Software Developer!
