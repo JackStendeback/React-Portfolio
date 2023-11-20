@@ -1,3 +1,5 @@
+import { PORTFOLIO_PROJECTS } from './data.js';
+
 const portfolioDescriptions = ['Full Stack', 'React', 'Web Development', 'MERN'];
 
 function genRandomInt(max) {
@@ -20,12 +22,12 @@ function Header() {
 }
 
 // Add in links to the project repo's and the deployed applications once complete.
-function Projects(props) {
+function Projects({image, title, description}) {
     return (
         <li>
-            <img src={props.image} alt={props.title}></img>
-            <h3>{props.title}</h3>
-            <p>{props.description}</p>
+            <img src={image} alt={title}></img>
+            <h3>{title}</h3>
+            <p>{description}</p>
         </li>
     );
 }
@@ -38,10 +40,10 @@ function Portfolio() {
             <section id="main-projects">
                 <h2>My Projects</h2>
                 <ul>
-                    <Projects/>
-                    <Projects/>
-                    <Projects/>
-                    <Projects/>
+                <Projects {...PORTFOLIO_PROJECTS[0]} />
+                <Projects {...PORTFOLIO_PROJECTS[1]} />
+                <Projects {...PORTFOLIO_PROJECTS[2]} />
+                <Projects {...PORTFOLIO_PROJECTS[3]} />
                 </ul>
             </section>
           </main>
