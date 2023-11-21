@@ -222,6 +222,22 @@ header {
     height: 3rem; 
     width: auto;
   }
+
+  header li {
+    font-size: 1.25rem; /* Adjust the font size */
+    padding: 0.5rem 1rem; /* Add padding to the list items */
+    border-radius: 6px; /* Add border radius for a button-like appearance */
+    margin-bottom: 0.5rem; /* Add margin between list items */
+    background-color: #8964b0; /* Background color */
+    color: #fff; /* Text color */
+    text-align: center; /* Center align text */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+  }
+
+  header li:hover {
+    background-color: #70a37f; /* Change background color on hover */
+  }
 }
+
 
   
