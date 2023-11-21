@@ -1,34 +1,5 @@
-import profilePicture from './assets/portfolio-pic.jpg'
+import Header from './components/Header.jsx';
 import { PORTFOLIO_PROJECTS } from './data.js';
-
-const portfolioDescriptions = ['Full Stack', 'React', 'Web Development', 'MERN'];
-
-function genRandomInt(max) {
-    return Math.floor(Math.random() * (max + 1));
-  }
-
-
-function Header() {
-    const keyWords = portfolioDescriptions[genRandomInt(2)]
-
-    return (
-        <header id="header">
-            <nav>
-                <ul>
-                    <li><a href="#header">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#footer">Contacts</a></li>
-                </ul>
-            </nav>
-            
-            <h1>Jack Stendeback's {keyWords} Portfolio</h1>
-            <img src={profilePicture} alt="Jack Stendeback in a suit." />
-            <p>
-                An in depth look into my life as a Software Developer!
-            </p>
-        </header>
-    );
-}
 
 function Footer() {
     return (
@@ -46,6 +17,18 @@ function Footer() {
 
                 <button type="submit">Send</button>
             </form>
+
+            <section id="resume">
+                <h2><a href="assets/JackStendeback-resume.pdf" download="Jack Stendeback Software Developer Resume" target="_blank">Resume</a></h2>
+            </section>
+
+            <section id="contact-links">
+            <ul>
+                <li>GitHub</li>
+                <li>LinkedIn</li>
+                <li>Facebook</li>
+            </ul>
+            </section>
         </footer>
     );
 }
