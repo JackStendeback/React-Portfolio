@@ -16,14 +16,14 @@ export default function Footer() {
             </form>
 
             <section id="resume">
-                <h2><a href="assets/JackStendeback-Resume.pdf" download="Jack Stendeback Software Developer Resume" target="_blank">Resume</a></h2>
+                <h2><a href="https://docs.google.com/document/d/1Ktj5pnPCbSgMMqKcQZ7b-053J9KFUADHN6lOvxSYfiE/edit?usp=sharing" target="_blank">Resume</a></h2>
             </section>
 
             <section id="contact-links">
             <ul>
-                <li>GitHub</li>
-                <li>LinkedIn</li>
-                <li>Facebook</li>
+                <li><a href="https://github.com/JackStendeback" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/jack-stendeback-730851281/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.facebook.com/jack.stendeback/" target="_blank">Facebook</a></li>
             </ul>
             </section>
         </footer>
