@@ -9,7 +9,7 @@ function Portfolio() {
             <Header />
           <main>
             <section id="main-projects">
-                <h2 id="projects">My Projects Overview</h2>
+                <h2 id="projects">Portfolio Projects</h2>
                 <ul>
                 <Projects {...PORTFOLIO_PROJECTS[0]} />
                 <Projects {...PORTFOLIO_PROJECTS[1]} />

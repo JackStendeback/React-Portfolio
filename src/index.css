@@ -126,6 +126,18 @@ header {
     font-size: 0.9rem;
   }
 
+  #project-links a {
+    text-decoration: none;
+  }
+
+  #project-links a:visited {
+    color: inherit;
+  }
+
+  #project-links a:hover {
+    color: #70A37F;
+  }
+
 .footer {
   padding: 20px;
   text-align: center;

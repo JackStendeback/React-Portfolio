@@ -28,7 +28,7 @@ export default function Footer() {
                 <li>Facebook</li>
             </ul>
             </section>
-            <section id="project-buttons">
+            {/* <section id="project-buttons">
                 <h2>Projects-In Depth</h2>
                 <menu>
                     <ProjectButtons>Project1</ProjectButtons>
@@ -38,7 +38,7 @@ export default function Footer() {
                     <ProjectButtons>Project5</ProjectButtons>
                     <ProjectButtons>Project6</ProjectButtons>
                 </menu>
-            </section>
+            </section> */}
         </footer>
     );
 }
