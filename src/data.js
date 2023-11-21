@@ -2,10 +2,17 @@ import WellnessWizard from './assets/WellnessWizard.jpeg';
 import ORMECommerce from './assets/ORM-ECommerce.jpeg';
 import PokemonGuesser from './assets/PokemonGuesser.jpeg';
 import JavascriptQuiz from './assets/JavascriptQuiz.jpeg';
-import project5Img from './assets/Project5.avif';
+import BettorsBible from './assets/BettorsBible.jpeg';
 import project6Img from './assets/Project6.avif';
 
 export const PORTFOLIO_PROJECTS = [
+    {
+    image: BettorsBible,
+    title: `Bettor's Bible`,
+    description:
+      `A Full Stack MERN application that allows the user to compare betting odds between different casinos to find the best odds.`,
+    liveURL: '#',
+    },
     {
       image: WellnessWizard,
       title: 'Wellness Wizard',
@@ -33,12 +40,6 @@ export const PORTFOLIO_PROJECTS = [
       description:
         'A quiz to help refine your knowledge in regards to front-end web development!',
       liveURL: 'https://jackstendeback.github.io/Stendeback-Javascript-Quiz/',
-    },
-    {
-        image: project5Img,
-        title: 'Project5',
-        description:
-          'This will be a description of my fourth project',
     },
     {
         image: project6Img,
