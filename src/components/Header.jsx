@@ -1,4 +1,6 @@
 import profilePicture from '../assets/portfolio-pic.jpg'
+import IntroParagraph from './AboutMeParagraph.jsx';
+import AboutMeParagraph from './AboutMeParagraph.jsx';
 
 const portfolioDescriptions = ['Full Stack', 'React', 'Web Development', 'MERN'];
 
@@ -14,17 +16,18 @@ export default function Header() {
         <header id="header">
             <nav>
                 <ul>
-                    <li><a href="#header">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#projects">Portfolio</a></li>
                     <li><a href="#footer">Contacts</a></li>
+                    <li><a href="#resume">Resume</a></li>
                 </ul>
             </nav>
             
             <h1><a href="https://www.linkedin.com/in/jack-stendeback/" target="_blank" id="name-hover">Jack Stendeback's {keyWords} Portfolio</a></h1>
             <img src={profilePicture} alt="Jack Stendeback in a suit." />
-            <p>
-                An in depth look into my life as a Software Developer!
-            </p>
+            <AboutMeParagraph>
+                <IntroParagraph />
+            </AboutMeParagraph>
         </header>
     );
 }

@@ -71,6 +71,11 @@ header {
     color: #70A37F;
   }
 
+  section p {
+    color: inherit;
+    font-size: 1.35rem;
+  }
+
   
   main {
     width: 90%;
