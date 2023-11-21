@@ -1,5 +1,3 @@
-import ProjectButtons from './ProjectButtons.jsx';
-
 export default function Footer() {
     return (
         <footer className="footer" id="footer">
@@ -28,17 +26,6 @@ export default function Footer() {
                 <li>Facebook</li>
             </ul>
             </section>
-            {/* <section id="project-buttons">
-                <h2>Projects-In Depth</h2>
-                <menu>
-                    <ProjectButtons>Project1</ProjectButtons>
-                    <ProjectButtons>Project2</ProjectButtons>
-                    <ProjectButtons>Project3</ProjectButtons>
-                    <ProjectButtons>Project4</ProjectButtons>
-                    <ProjectButtons>Project5</ProjectButtons>
-                    <ProjectButtons>Project6</ProjectButtons>
-                </menu>
-            </section> */}
         </footer>
     );
 }
