@@ -32,7 +32,7 @@ export const PORTFOLIO_PROJECTS = [
       title: 'Interactive Javascript Quiz',
       description:
         'A quiz to help refine your knowledge in regards to front-end web development!',
-      liveURL: 'jackstendeback.github.io/Stendeback-Javascript-Quiz',
+      liveURL: 'https://jackstendeback.github.io/Stendeback-Javascript-Quiz/',
     },
     {
         image: project5Img,
