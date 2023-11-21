@@ -3,7 +3,7 @@ import ORMECommerce from './assets/ORM-ECommerce.jpeg';
 import PokemonGuesser from './assets/PokemonGuesser.jpeg';
 import JavascriptQuiz from './assets/JavascriptQuiz.jpeg';
 import BettorsBible from './assets/BettorsBible.jpeg';
-import project6Img from './assets/Project6.avif';
+import WeatherApp from './assets/WeatherApp.jpeg';
 
 export const PORTFOLIO_PROJECTS = [
     {
@@ -42,9 +42,10 @@ export const PORTFOLIO_PROJECTS = [
       liveURL: 'https://jackstendeback.github.io/Stendeback-Javascript-Quiz/',
     },
     {
-        image: project6Img,
-        title: 'Project6',
+        image: WeatherApp,
+        title: 'Weather App',
         description:
-          'This will be a description of my fourth project',
+          'A weather dashboard that shows up to date weather data, along with a five day forecast and search history',
+        liveURL: 'https://jackstendeback.github.io/Stendeback-Weather-Application',
     },
   ];

@@ -16,7 +16,7 @@ export default function Footer() {
             </form>
 
             <section id="resume">
-                <h2><a href="assets/JackStendeback-resume.pdf" download="Jack Stendeback Software Developer Resume" target="_blank">Resume</a></h2>
+                <h2><a href="assets/JackStendeback-Resume.pdf" download="Jack Stendeback Software Developer Resume" target="_blank">Resume</a></h2>
             </section>
 
             <section id="contact-links">
