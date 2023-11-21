@@ -1,7 +1,7 @@
 import WellnessWizard from './assets/WellnessWizard.jpeg';
 import ORMECommerce from './assets/ORM-ECommerce.jpeg';
 import PokemonGuesser from './assets/PokemonGuesser.jpeg';
-import project4Img from './assets/Project4.avif';
+import JavascriptQuiz from './assets/JavascriptQuiz.jpeg';
 import project5Img from './assets/Project5.avif';
 import project6Img from './assets/Project6.avif';
 
@@ -28,10 +28,11 @@ export const PORTFOLIO_PROJECTS = [
       liveURL: 'https://www.pokemonguesser.com',
     },
     {
-      image: project4Img,
-      title: 'Project4',
+      image: JavascriptQuiz,
+      title: 'Interactive Javascript Quiz',
       description:
-        'This will be a description of my fourth project',
+        'A quiz to help refine your knowledge in regards to front-end web development!',
+      liveURL: 'jackstendeback.github.io/Stendeback-Javascript-Quiz',
     },
     {
         image: project5Img,
